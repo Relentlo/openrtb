@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	. "github.com/Relentlo/openrtb/openrtb2"
+	. "github.com/Relentlo/openrtb/v19/openrtb2"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

@@ -1,4 +1,4 @@
-# openrtb [![Go Reference](https://pkg.go.dev/badge/github.com/Relentlo/openrtb.svg)](https://pkg.go.dev/github.com/Relentlo/openrtb) [![Test](https://github.com/mxmCherry/openrtb/actions/workflows/test.yml/badge.svg)](https://github.com/mxmCherry/openrtb/actions/workflows/test.yml)
+# openrtb [![Go Reference](https://pkg.go.dev/badge/github.com/Relentlo/openrtb/v19.svg)](https://pkg.go.dev/github.com/Relentlo/openrtb/v19) [![Test](https://github.com/mxmCherry/openrtb/actions/workflows/test.yml/badge.svg)](https://github.com/mxmCherry/openrtb/actions/workflows/test.yml)
 
 [OpenRTB](https://iabtechlab.com/standards/openrtb/), [AdCOM](https://iabtechlab.com/standards/openmedia) and [OpenRTB Dynamic Native Ads](https://iabtechlab.com/standards/openrtb-native/) types for [Go programming language](https://golang.org/)
 
@@ -16,19 +16,19 @@ Also, [test/matcher library](https://github.com/onsi/gomega) relies on newer Go 
 # Using
 
 ```bash
-go get -u "github.com/Relentlo/openrtb/..."
+go get -u "github.com/Relentlo/openrtb/v19/..."
 ```
 
 ```go
 import (
-	openrtb2 "github.com/Relentlo/openrtb/openrtb2"
+	openrtb2 "github.com/Relentlo/openrtb/v19/openrtb2"
 
-	openrtb3 "github.com/Relentlo/openrtb/openrtb3"
-	adcom1 "github.com/Relentlo/openrtb/adcom1"
+	openrtb3 "github.com/Relentlo/openrtb/v19/openrtb3"
+	adcom1 "github.com/Relentlo/openrtb/v19/adcom1"
 
-	native1 "github.com/Relentlo/openrtb/native1"
-	nreq "github.com/Relentlo/openrtb/native1/request"
-	nres "github.com/Relentlo/openrtb/native1/response"
+	native1 "github.com/Relentlo/openrtb/v19/native1"
+	nreq "github.com/Relentlo/openrtb/v19/native1/request"
+	nres "github.com/Relentlo/openrtb/v19/native1/response"
 )
 ```
 
@@ -67,7 +67,7 @@ Master always contains latest code, so better use some package manager to vendor
 
 Using both pointer and `omitempty` is mostly just to save traffic / generate more "canonical" (strict) JSON.
 
-## Documentation ([pkg.go.dev](https://pkg.go.dev/github.com/Relentlo/openrtb))
+## Documentation ([pkg.go.dev](https://pkg.go.dev/github.com/Relentlo/openrtb/v19))
 
 - [Godoc: documenting Go code](http://blog.golang.org/godoc-documenting-go-code)
 - Each entity (type, struct key or constant) should be documented

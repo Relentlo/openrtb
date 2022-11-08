@@ -3,7 +3,7 @@ package response
 import (
 	"encoding/json"
 
-	"github.com/Relentlo/openrtb/native1"
+	"github.com/Relentlo/openrtb/v19/native1"
 )
 
 // 5.5 Object: Data
