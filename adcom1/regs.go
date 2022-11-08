@@ -11,7 +11,7 @@ type Regs struct {
 	// Definition:
 	//   Flag indicating if COPPA regulations apply, where 0 = no, 1 = yes.
 	//   The Children's Online Privacy Protection Act (COPPA) was established by the U.S. Federal Trade Commission.
-	COPPA int8 `json:"coppa,omitempty"`
+	COPPA *int8 `json:"coppa,omitempty"`
 
 	// Attribute:
 	//   gdpr
